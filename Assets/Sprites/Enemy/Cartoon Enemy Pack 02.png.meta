@@ -1,0 +1,320 @@
+fileFormatVersion: 2
+guid: d3417e0f92d587445833ef4fe69248d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5413677091496494941
+    second: Cartoon Enemy Pack 02_0
+  - first:
+      213: -3462833066885694753
+    second: Cartoon Enemy Pack 02_1
+  - first:
+      213: 7031903493223476719
+    second: Cartoon Enemy Pack 02_2
+  - first:
+      213: -7596528414605931787
+    second: Cartoon Enemy Pack 02_3
+  - first:
+      213: 8115216735949384838
+    second: Cartoon Enemy Pack 02_4
+  - first:
+      213: -8537470647664917767
+    second: Cartoon Enemy Pack 02_5
+  - first:
+      213: 4495819764347270580
+    second: Cartoon Enemy Pack 02_6
+  - first:
+      213: -1765275228655606030
+    second: Cartoon Enemy Pack 02_7
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 0
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 0
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 0
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 0
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cartoon Enemy Pack 02_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 625
+        width: 272
+        height: 163
+      alignment: 9
+      pivot: {x: 0.57146454, y: 0.38245976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a87ea04e51ced4b0800000000000000
+      internalID: -5413677091496494941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon Enemy Pack 02_1
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 493
+        width: 188
+        height: 208
+      alignment: 9
+      pivot: {x: 0.5571956, y: 0.57402265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda3dcb2cab81ffc0800000000000000
+      internalID: -3462833066885694753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon Enemy Pack 02_2
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 624
+        width: 257
+        height: 163
+      alignment: 9
+      pivot: {x: 0.57618684, y: 0.36924022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fede96078f6569160800000000000000
+      internalID: 7031903493223476719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon Enemy Pack 02_3
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 304
+        width: 187
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5612003, y: 0.5018286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa8041b7a5b39690800000000000000
+      internalID: -7596528414605931787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon Enemy Pack 02_4
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 228
+        width: 174
+        height: 202
+      alignment: 9
+      pivot: {x: 0.60299575, y: 0.384665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c619500aa0f9070800000000000000
+      internalID: 8115216735949384838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon Enemy Pack 02_5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 286
+        width: 175
+        height: 199
+      alignment: 9
+      pivot: {x: 0.581926, y: 0.3829263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2cb9dedafc48980800000000000000
+      internalID: -8537470647664917767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon Enemy Pack 02_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 270
+        height: 172
+      alignment: 9
+      pivot: {x: 0.49336255, y: 0.40622574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5791c714c546e30800000000000000
+      internalID: 4495819764347270580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cartoon Enemy Pack 02_7
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 11
+        width: 274
+        height: 175
+      alignment: 9
+      pivot: {x: 0.46729675, y: 0.42319462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6af29488b7087e0800000000000000
+      internalID: -1765275228655606030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

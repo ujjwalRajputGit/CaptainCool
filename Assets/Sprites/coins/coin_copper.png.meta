@@ -1,0 +1,392 @@
+fileFormatVersion: 2
+guid: d724b61a7235552468aa908b1a19db1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3379703794045891266
+    second: coin_copper_0
+  - first:
+      213: -6636946523264600203
+    second: coin_copper_1
+  - first:
+      213: 5167725474260836859
+    second: coin_copper_2
+  - first:
+      213: -265948833439250573
+    second: coin_copper_3
+  - first:
+      213: -974339269424635172
+    second: coin_copper_4
+  - first:
+      213: 5788318000604037962
+    second: coin_copper_5
+  - first:
+      213: 6799764586246936414
+    second: coin_copper_6
+  - first:
+      213: -4120080658423239562
+    second: coin_copper_7
+  - first:
+      213: 3852706831867214510
+    second: coin_copper_8
+  - first:
+      213: -7205308826593944430
+    second: coin_copper_9
+  - first:
+      213: -5529942642598665164
+    second: coin_copper_10
+  - first:
+      213: 5735811649076826778
+    second: coin_copper_11
+  - first:
+      213: -9033590987691554420
+    second: coin_copper_12
+  - first:
+      213: -2070625684606091183
+    second: coin_copper_13
+  - first:
+      213: -5527502280372823004
+    second: coin_copper_14
+  - first:
+      213: 2390039854080058439
+    second: coin_copper_15
+  - first:
+      213: 6716014383807033084
+    second: coin_copper_16
+  - first:
+      213: -4573514386162660393
+    second: coin_copper_17
+  - first:
+      213: -4021419272702120842
+    second: coin_copper_18
+  - first:
+      213: -2123252234258232059
+    second: coin_copper_19
+  - first:
+      213: 37268713569988031
+    second: coin_copper_20
+  - first:
+      213: -6262677601536382031
+    second: coin_copper_21
+  - first:
+      213: 3281336029462400778
+    second: coin_copper_22
+  - first:
+      213: 1608459262148293112
+    second: coin_copper_23
+  - first:
+      213: -2453572692314383855
+    second: coin_copper_24
+  - first:
+      213: -5674254939068580420
+    second: coin_copper_25
+  - first:
+      213: 6416273475166437696
+    second: coin_copper_26
+  - first:
+      213: -6362925981477434055
+    second: coin_copper_27
+  - first:
+      213: 7792243694036076394
+    second: coin_copper_28
+  - first:
+      213: 8864975431156053811
+    second: coin_copper_29
+  - first:
+      213: 6538171225343321027
+    second: coin_copper_30
+  - first:
+      213: -5752044677059406513
+    second: coin_copper_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: coin_copper_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 12
+        height: 29
+      alignment: 9
+      pivot: {x: 0.45321643, y: 0.67422867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dcad54e41e811d0800000000000000
+      internalID: -3379703794045891266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin_copper_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 14
+        height: 30
+      alignment: 9
+      pivot: {x: 0.4866333, y: 0.69337237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577bc871d44d4e3a0800000000000000
+      internalID: -6636946523264600203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin_copper_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 18
+        height: 31
+      alignment: 9
+      pivot: {x: 0.47920737, y: 0.6992077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1ed0660f277b740800000000000000
+      internalID: 5167725474260836859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin_copper_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.47920737, y: 0.71052635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3778c6ee1f82f4cf0800000000000000
+      internalID: -265948833439250573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin_copper_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 18
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.72222227}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd22b33c8937a72f0800000000000000
+      internalID: -974339269424635172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin_copper_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 16
+        height: 31
+      alignment: 9
+      pivot: {x: 0.4649124, y: 0.7233541}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43c001cd8c345050800000000000000
+      internalID: 5788318000604037962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin_copper_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 12
+        height: 30
+      alignment: 9
+      pivot: {x: 0.48440552, y: 0.6996101}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57978f4ddd9d5e50800000000000000
+      internalID: 6799764586246936414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coin_copper_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 0
+        width: 13
+        height: 29
+      alignment: 9
+      pivot: {x: 0.55757964, y: 0.6613229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ca9b4687882d6c0800000000000000
+      internalID: -4120080658423239562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
