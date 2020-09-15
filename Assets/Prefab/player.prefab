@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 3351066231323947302}
   - component: {fileID: 3351066231323947299}
   - component: {fileID: 3351066231323947303}
+  - component: {fileID: 7314899899027408303}
   m_Layer: 2
   m_Name: player
   m_TagString: Player
@@ -229,6 +230,18 @@ MonoBehaviour:
   bullet: {fileID: 2860695982394991324, guid: 27e764f6206c1294e9be280e1c1efcf2, type: 3}
   firePosition: {fileID: 3351066231325096972}
   animator: {fileID: 3351066231323947296}
+--- !u!114 &7314899899027408303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3351066231323947358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ed8e2e0fead54a4fbf0a5390f2fdfb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3351066231325096975
 GameObject:
   m_ObjectHideFlags: 0

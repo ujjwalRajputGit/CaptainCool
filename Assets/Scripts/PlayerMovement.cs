@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -11,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     public Collider2D mainColider, slideColider;
     public TextMeshProUGUI gameOverText;
+    public GameObject restartLevel;
 
     bool isGrounded;
     bool P_facingRight = true;
@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     float movement;
 
     Rigidbody2D rb;
+
 
     private void Start()
     {
@@ -38,14 +39,20 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        
+            //all input related work done here.
+            movement = Input.GetAxisRaw("Horizontal");   //geting the input on horizontal axis.
 
-        //all input related work done here.
-        movement = Input.GetAxisRaw("Horizontal");   //geting the input on horizontal axis.
+            if (!jumpKeyDown && isGrounded)
+            {
+                jumpKeyDown = Input.GetButtonDown("Jump");   //checking for jump key down.
+            }
 
-        if (!jumpKeyDown && isGrounded)
-        {
-            jumpKeyDown = Input.GetButtonDown("Jump");   //checking for jump key down.
-        }
+            if (!slideKeyDown && isGrounded && Mathf.Abs(rb.velocity.x) > 0.05)
+            {
+                slideKeyDown = Input.GetKeyDown(KeyCode.S);   //checking for slide key down. 
+            }
+        
 
         if (movement > 0 && !P_facingRight)   //checking for player faceing direction.
         {
@@ -54,11 +61,6 @@ public class PlayerMovement : MonoBehaviour
         else if (movement < 0 && P_facingRight)
         {
             Flip();
-        }
-
-        if (!slideKeyDown && isGrounded && Mathf.Abs(rb.velocity.x) > 0.05)
-        {
-            slideKeyDown = Input.GetKeyDown(KeyCode.S);   //checking for slide key down. 
         }
 
         if (!isGrounded && !isSliding)   //checking if the player is drooping
@@ -124,7 +126,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)  //checking the player it is grounded  or not.
     {
-        if (collision != null)
+        if (collision != null && collision != cameraCollider.getCollider())
         {
             isGrounded = true;
             animator.SetBool("IsJumping", false);  //if player is grounded disabling the jump animation.
@@ -147,10 +149,22 @@ public class PlayerMovement : MonoBehaviour
         transform.Rotate(0f, 180f, 0f);
     }
 
-    private void dead()//calling through animation event
+    void dead() //calling through animation event(at end frame)
     {
         Destroy(gameObject);
+        enablingUI();
+    }
+
+    void preDeath()  //calling through animation event(at end frame)
+    {
+        Destroy(gameObject, 1f);
+        enablingUI();
+    }
+
+    void enablingUI()
+    {
         gameOverText.enabled = true; //enabling the game over text
+        restartLevel.SetActive(true); //enabling restart button
     }
 
 }

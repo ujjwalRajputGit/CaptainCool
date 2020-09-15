@@ -7,22 +7,22 @@ public class EnemyMovement : MonoBehaviour
     public float speed;
     public Transform raycast;
 
-     float raycastDistanceDown = 2f;
-     float raycastDistanceFront = 1f;
+     [SerializeField] float raycastDistanceDown = 2f;
+     [SerializeField] float raycastDistanceFront = 1f;
      bool isFacingRight = true;
      LayerMask ignoreRay;
      Vector2 frontRayDirection = Vector2.right;
 
     private void Start()
     {
-        ignoreRay = LayerMask.GetMask("Enemy");
+        ignoreRay = LayerMask.GetMask("Enemy", "Collectable", "Ignore Raycast");
     }
 
     void FixedUpdate()
     {
         transform.Translate(Vector2.right * speed * Time.deltaTime);
 
-        RaycastHit2D raycastHit2DDown = Physics2D.Raycast(raycast.position, Vector2.down, raycastDistanceDown , ~ignoreRay);//down ray(enemy not drop from top).
+        RaycastHit2D raycastHit2DDown = Physics2D.Raycast(raycast.position, Vector2.down, raycastDistanceDown, ~ignoreRay);//down ray(enemy not drop from top).
         RaycastHit2D raycastHit2DFront = Physics2D.Raycast(raycast.position, frontRayDirection, raycastDistanceFront, ~ignoreRay);//front ray(for checking frong collider).
         //Debug.DrawRay(raycast.position, Vector2.down * 2, Color.green);
 

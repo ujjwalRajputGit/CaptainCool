@@ -146,6 +146,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   raycast: {fileID: 1079889048601576777}
+  raycastDistanceDown: 1
+  raycastDistanceFront: 1
 --- !u!114 &452207134516422302
 MonoBehaviour:
   m_ObjectHideFlags: 0

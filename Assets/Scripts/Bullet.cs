@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
@@ -17,11 +14,14 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(gameObject);
-        //Debug.Log(collision.gameObject.name);
-        if (collision.gameObject.layer == 9)
+        if (collision != cameraCollider.getCollider())
         {
-            Destroy(collision.gameObject);
+            Destroy(gameObject);
+            //Debug.Log(collision.gameObject.name);
+            if (collision.gameObject.layer == 9)
+            {
+                Destroy(collision.gameObject);
+            }
         }
     }
     
